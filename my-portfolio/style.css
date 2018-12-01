@@ -39,7 +39,7 @@ left: 50px;
 }
 
 .amazon-text, .intro-text {
-    font-family: Avenir;
+    font-family: Avenir, 'Lato', sans-serif;
     color: black;
     font-size: 18px;
     text-align: center;
@@ -58,7 +58,7 @@ left: 50px;
 
 
 .center-navigation a, .center-navigation a:hover {
-    font-family: Avenir;
+    font-family: Avenir, 'Lato', sans-serif;
     font-size: 18px;
 }
 
@@ -76,7 +76,7 @@ margin-top: 0px;
 
 .cta {
     background-color: #979797;
-    font-family: Avenir;
+    font-family: Avenir, 'Lato', sans-serif;
     font-size: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -105,7 +105,7 @@ margin-top: 0px;
 }
 h1 {
     font-size: 18px;
-    font-family: Avenir;
+    font-family: Avenir, 'Lato', sans-serif;
     font-weight: medium;
 }
 
