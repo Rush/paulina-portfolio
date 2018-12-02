@@ -45,6 +45,13 @@ left: 50px;
     text-align: center;
 }
 
+.main-text {
+    font-family: Avenir, 'Lato', sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
 .main-navigation {
     margin-top: 30px;
 }
@@ -102,6 +109,10 @@ margin-top: 0px;
 .margins {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.margins-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 h1 {
     font-size: 18px;
