@@ -160,3 +160,21 @@ h1 {
 .send-message-btn {
     background-color: #936D80;
 }
+
+.png-icons  {
+    margin-top: 40px;
+    height: 50px;
+    color: tomato;
+    text-align: center;
+  }
+
+.png-icons img {
+    padding: 10px;    opacity: 0.7;
+
+}
+
+  .png-icons img:hover  {
+    color: magenta;
+    opacity: 1;
+  }
+
