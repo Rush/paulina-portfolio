@@ -81,6 +81,15 @@ left: 50px;
 margin-top: 0px;
 }
 
+.center-navigation img {
+    height: 40px;
+}
+
+.center-navigation a {
+    display: inline-block;
+    text-align: center;
+}
+
 .cta {
     background-color: #979797;
     font-family: Avenir, 'Lato', sans-serif;
@@ -138,4 +147,8 @@ h1 {
 }
 .container {
     position: relative;
+}
+
+.send-message-btn {
+    background-color: #936D80;
 }
