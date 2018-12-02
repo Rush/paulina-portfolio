@@ -9,6 +9,7 @@
 
 .project-link {
     background-color: #E3DCD8;
+    color: black;
     width: 187px;
     height: 187px; 
     margin: auto; 
@@ -17,6 +18,13 @@
     text-transform: uppercase;
     padding-left: 50px;
     line-height: 187px;
+    display: block;
+}
+
+.project-link:hover {
+    background-color: #CDBCB2;
+    text-decoration: none;
+    color: black;
 }
 
 .recent-project-container {
