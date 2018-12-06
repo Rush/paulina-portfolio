@@ -7,6 +7,10 @@
   
 }
 
+.logo-paulina {
+height: 70px;
+}
+
 .project-link {
     background-color: #E3DCD8;
     color: black;
@@ -21,6 +25,15 @@
     display: block;
 }
 
+.other-project .project-link {
+    width: 100px;
+    height: 100px; 
+    top: -40px;
+    padding-left: 25px;
+    line-height: 100px;
+}
+
+
 .project-link:hover {
     background-color: #CDBCB2;
     text-decoration: none;
@@ -34,16 +47,24 @@
 
 .upper-line, .lower-line {
 position: absolute;
-width: 45.5px;
+width: 30%;
 height: 1px;
 background-color: black;
-top: 44px;
-left: 50px;
+top: 23.5%;
+left: 26.7%;
 }
+
+/* .other-project .upper-line, .other-project .lower-line {
+width: 45.5px;
+height: 1px; 
+top: 14px;
+left: 20px;
+}
+*/
 
 .lower-line {
     top: initial;
-    bottom: 44px;
+    bottom: 23.5%;
 }
 
 .amazon-text, .intro-text {
@@ -157,6 +178,7 @@ h1 {
 }
 .name-container {
     text-align: center;
+    display: inline-block;
 }
 .container {
     position: relative;
@@ -178,12 +200,21 @@ h1 {
 
 }
 
-  .png-icons img:hover  {
+.png-icons img:hover  {
     color: magenta;
     opacity: 1;
   }
 
-  .padding-tablet {
+.padding-tablet {
       padding-right: 20%;
       padding-left: 20%;
   }
+.other-project {
+    width: 200px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.other-project-row {
+    justify-content: center;
+}
