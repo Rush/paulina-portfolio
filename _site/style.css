@@ -1,0 +1,289 @@
+body {
+    position: relative;
+    padding-top: 30px;
+}
+
+.intro-image {
+    background-image: url("images/accounting-achievement-aerial-1043506.jpg");
+    background-size: cover;
+    background-position: 50px;
+    width: 100%;
+    height: 300px;
+  
+}
+
+.logo-paulina {
+height: 70px;
+}
+
+.project-link {
+    background-color: #E3DCD8;
+    color: black;
+    width: 187px;
+    height: 187px; 
+    margin: auto; 
+    position: relative;
+    top: -80px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    line-height: 187px;
+    display: block;
+}
+
+.other-project .project-link {
+    width: 100px;
+    height: 100px; 
+    top: -40px;
+    padding-left: 25px;
+    line-height: 100px;
+}
+
+
+.project-link:hover {
+    background-color: #CDBCB2;
+    text-decoration: none;
+    color: black;
+}
+
+.recent-project-container {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.upper-line, .lower-line {
+position: absolute;
+width: 30%;
+height: 1px;
+background-color: black;
+top: 23.5%;
+left: 26.7%;
+}
+
+/* .other-project .upper-line, .other-project .lower-line {
+width: 45.5px;
+height: 1px; 
+top: 14px;
+left: 20px;
+}
+*/
+
+.lower-line {
+    top: initial;
+    bottom: 23.5%;
+}
+
+.amazon-text, .intro-text {
+    font-family: Avenir, 'Lato', sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main-text {
+    font-family: Avenir, 'Lato', sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+.main-navigation {
+}
+
+.main-navigation a {
+    color: #936D80;
+}
+
+.main-navigation a.active {
+    font-weight: bold;
+}
+
+.main-navigation a:hover {
+    color: black;
+}
+
+
+.center-navigation a, .center-navigation a:hover {
+    font-family: Avenir, 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.center-navigation a {
+    color: black;
+}
+
+.center-navigation a:hover {
+    color: grey;
+}
+
+.project-row img {
+margin-top: 0px;
+}
+
+.center-navigation img {
+    height: 40px;
+}
+
+.center-navigation a {
+    display: inline-block;
+    text-align: center;
+}
+
+.cta {
+    background-color: #979797;
+    font-family: Avenir, 'Lato', sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.cta-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.quote, .quote-2 {
+    margin: 10px;
+    padding: 10px;
+    font-family: playfair display;
+    text-align: center;
+}
+
+.quote-2 {
+    font-style: italic;
+}
+.margins {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.margins-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.margins-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 18px;
+    font-family: Avenir, 'Lato', sans-serif;
+    font-weight: medium;
+}
+
+.name {
+    font-family: Playfair display;
+    color: #5B3644;
+    font-weight: bold;
+    font-size: 25px;
+}
+.name-2 {
+    font-family: Playfair display;
+    color: #936D80;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+.name-container {
+    text-align: center;
+    display: inline-block;
+}
+.container {
+    position: relative;
+}
+
+.send-message-btn {
+    background-color: #936D80;
+}
+
+.png-icons  {
+    margin-top: 40px;
+    height: 50px;
+    color: tomato;
+    text-align: center;
+  }
+
+.png-icons img {
+    padding: 10px;    opacity: 0.7;
+
+}
+
+.png-icons img:hover  {
+    color: magenta;
+    opacity: 1;
+  }
+
+.padding-tablet {
+      padding-right: 20%;
+      padding-left: 20%;
+  }
+.other-project {
+    width: 200px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.other-project-row {
+    justify-content: center;
+}
+
+.group {
+    background: yellow;
+    width: 200px;
+    height: 500px;
+}
+.group .subgroup {
+    background: orange;
+    width: 150px;
+    height: 200px;
+}
+.fixed {
+    position: fixed;
+}
+
+/* #navbar-side .vertical-line{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 1px;
+    background-color: black;
+} */
+
+#navbar-side {
+    text-align: left;
+    top: 40px;
+}
+
+#navbar-side ul {
+    border-left: 1px solid black;
+}
+
+#navbar-side a.active {
+    text-shadow: -0.06ex 0 #007bff, 0.06ex 0 #007bff;
+}
+
+#navbar-side a {
+    position: relative;
+}
+
+.dot {
+    position: absolute;
+    top: 17px;
+    height: 6px;
+    width: 6px;
+    left: -3px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.active .dot {
+    height: 10px;
+    width: 10px;
+    left: -5px;
+}
+
+.toc-col {
+    padding-right: 0px;
+}
