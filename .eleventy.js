@@ -1,6 +1,6 @@
 module.exports = (eleventyConfig) => {
-  eleventyConfig.addPassthroughCopy('images');
-  eleventyConfig.addPassthroughCopy('style.css');
+  eleventyConfig.addPassthroughCopy('src/images');
+  eleventyConfig.addPassthroughCopy('src/style.css');
   eleventyConfig.addFilter('dashes', value => {
     return value.toLowerCase().replace(/\s+/g, '-');
   });
@@ -8,7 +8,7 @@ module.exports = (eleventyConfig) => {
   return {
     passthroughFileCopy: true,
     dir: {
-      input: 'my-portfolio',
+      input: 'src',
       output: '_site'
     }
   };

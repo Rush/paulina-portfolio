@@ -4,8 +4,9 @@
   "description": "This is my messy, unorganized code hub for proof of concept projects and experimentation.",
   "main": "index.js",
   "scripts": {
-    "build": "cd my-portfolio && eleventy",
-    "watch": "cd my-portfolio && eleventy --watch",
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
     "deploy": "git subtree push --prefix _site origin gh-pages"
   },
   "repository": {
